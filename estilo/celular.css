@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: url('../imagens/fundo.png') no-repeat;
+    background-size: cover;
+}
+
+main{
+    position: relative;
+    height: 100vh;
+}
+
+section#celular{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 640px;
+    width: 400px;
+    background: url('../imagens/celular.png') no-repeat;
+    background-size: contain;
+}
+
+iframe#tela{
+    position: relative;
+    top: 30px;
+    left: 30px;
+
+    width: 300px;
+    height: 575px;
+
+    border-radius: 10px;
+}
+

@@ -2,6 +2,11 @@ body{
     background-color: black;
 }
 
+::-webkit-scrollbar{
+    height: 0px;
+    width: 0px;
+}
+
 h1{
     color: rgb(172, 8, 172);
     text-align: center;
@@ -17,6 +22,7 @@ p{
 
 img{
     border: 2px solid purple;
+    width: 200px;
 }
 
 .retornar{
