@@ -13,6 +13,12 @@ main{
     height: 100vh;
 }
 
+p{
+    color: white;
+    text-align: right;
+    margin-right: 6px;
+}
+
 section#celular{
     position: absolute;
     top: 50%;
